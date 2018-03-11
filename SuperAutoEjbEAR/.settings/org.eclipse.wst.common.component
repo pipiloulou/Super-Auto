@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SuperAutoEjbEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="SuperAutoEjb.jar" deploy-path="/" handle="module:/resource/SuperAutoEjb/SuperAutoEjb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SuperAutoEjbClient.jar" deploy-path="/" handle="module:/resource/SuperAutoEjbClient/SuperAutoEjbClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
