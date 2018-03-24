@@ -10,7 +10,7 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceContexts;
 import javax.persistence.Query;
 
-import BO.UtilisateurBO;
+import bo.UtilisateurBO;
 import execption.HibernateExecption;
 import javafx.scene.control.TreeTableRow;
 

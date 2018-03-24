@@ -4,12 +4,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="SuperAutoEjb" transaction-type="JTA">
 	<jta-data-source>java:/SuperAutoRefonte</jta-data-source>
-	<class>BO.UtilisateurBO</class>
-	<class>BO.InvoiceBO</class>
-	<class>BO.StructureBO</class>
-	<class>BO.VehicleBO</class>
-	<class>BO.ModelBO</class>
-	<class>BO.OptionBO</class>
+	<class>bo.UtilisateurBO</class>
+	<class>bo.InvoiceBO</class>
+	<class>bo.StructureBO</class>
+	<class>bo.VehicleBO</class>
+	<class>bo.ModelBO</class>
+	<class>bo.OptionBO</class>
 		<properties>
 			<property name="hibernate.hbm2ddl.auto" value="create-drop" />
 		</properties>

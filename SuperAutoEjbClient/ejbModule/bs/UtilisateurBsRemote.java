@@ -4,7 +4,7 @@ import java.util.List;
 
 import javax.ejb.Remote;
 
-import BO.UtilisateurBO;
+import bo.UtilisateurBO;
 import execption.HibernateExecption;
 
 @Remote
